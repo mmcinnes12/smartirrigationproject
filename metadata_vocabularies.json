@@ -1,0 +1,64 @@
+{
+  "usage": "Optional categorical encoding: reserve 0 for unknown/unseen. Use IDs as categories or embeddings, not continuous ordered measurements. Fit model preprocessing only on training data.",
+  "vocabularies": {
+    "dataset_id": {
+      "berambadi": 1,
+      "cook": 2,
+      "flanders": 3,
+      "gallipoli": 4,
+      "gebesee": 5,
+      "klingenberg": 6,
+      "lamasquere": 7,
+      "lonzee": 8,
+      "selhausen": 9,
+      "virginia": 10
+    },
+    "country": {
+      "Belgium": 1,
+      "France": 2,
+      "Germany": 3,
+      "India": 4,
+      "Italy": 5,
+      "United States": 6
+    },
+    "crop": {
+      "bean": 1,
+      "carrot": 2,
+      "cauliflower": 3,
+      "celery": 4,
+      "chicory": 5,
+      "corn": 6,
+      "cotton": 7,
+      "leek": 8,
+      "no crop": 9,
+      "olive": 10,
+      "onion": 11,
+      "pea": 12,
+      "pumpkin": 13,
+      "spring barley": 14,
+      "spring canola": 15,
+      "spring legume (chickpea)": 16,
+      "spring pea": 17,
+      "spring wheat": 18,
+      "sweet potato": 19,
+      "winter canola": 20,
+      "winter legume (chickpea)": 21,
+      "winter triticale": 22,
+      "winter wheat": 23
+    },
+    "soil_type": {
+      "Luvisol (site literature)": 1,
+      "Nansemond loamy fine sand over fine sandy loam": 2,
+      "loamy sand": 3,
+      "sand": 4,
+      "silt loam": 5,
+      "site silt loam context; measured texture encoded by depth": 6
+    },
+    "irrigation_method": {
+      "drip": 1,
+      "irrigated; delivery method unknown": 2,
+      "overhead hose reel": 3,
+      "rainfed": 4
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "row_interval": "1 hour",
+  "timestamp": "end of hourly bin; retain per-file time_basis; not harmonised to UTC",
+  "history": "24 rows ending at row t (t-23 through t)",
+  "target": "soil_moisture_m3m3 at t+24 hours; hourly mean, not instantaneous value",
+  "delta_target": "target minus moisture at t",
+  "primary_moisture": "channel 1, except Flanders median of at least 2 replicates",
+  "required_filter": "window_24h_valid == true",
+  "optional_inputs": "Use observed columns with missingness masks; flag guarantees primary moisture history/target only, not complete weather",
+  "never_features": [
+    "target_soil_moisture_24h_m3m3",
+    "target_delta_24h_m3m3",
+    "window_24h_valid",
+    "history_24h_complete",
+    "suspect_flatline_48h"
+  ],
+  "split": "Split by site/series and chronological blocks before fitting preprocessing. Exclude windows crossing splits; embargo at least 48h at boundaries. Overlapping windows are not independent samples.",
+  "limitations": "Quality flags are retrospective. Crop and depth availability differ; these 10 datasets do not establish 10 verified crops or complete irrigation controls."
+}

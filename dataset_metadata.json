@@ -1,0 +1,4601 @@
+[
+  {
+    "dataset_id": "gebesee",
+    "metadata": {
+      "dataset_id": "gebesee",
+      "site": "Gebesee",
+      "country": "Germany",
+      "region": "Thuringian Basin",
+      "source_url": "https://meta.icos-cp.eu/objects/9-DAlCIw_KoAU0eLd8N_iVx1",
+      "crop": "unknown",
+      "crop_context": "potato; winter wheat; sunflower rotation",
+      "crop_provenance": "unknown per timestamp",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "unknown",
+      "time_basis": "local standard time UTC+01:00; no DST",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "gebesee",
+      "source_product": "ICOS ETC L2 Meteo",
+      "license": "ICOS RI, CC BY 4.0"
+    },
+    "limitations": [
+      "Physical depth-to-index and annual crop chronology not available in downloaded METEO files; do not assign a single crop to the whole record.",
+      "No measured irrigation event series in this product.",
+      "Missing -9999 retained as null; each hourly value requires both half-hours; columns ending _N and _SD preserved."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": "https://www.icos-cp.eu/news-and-events/news/science-middle-sunflowers-look-fieldwork-icos-stations",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "lonzee",
+    "metadata": {
+      "dataset_id": "lonzee",
+      "site": "Lonzée",
+      "country": "Belgium",
+      "region": "Wallonia",
+      "source_url": "https://meta.icos-cp.eu/objects/TcM8E1LFHji5mnolZIyiLE6o",
+      "crop": "unknown",
+      "crop_context": "winter wheat; sugar beet; potato rotation",
+      "crop_provenance": "unknown per timestamp",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "unknown",
+      "time_basis": "local standard time UTC+01:00; no DST",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "lonzee",
+      "source_product": "ICOS ETC L2 Meteo",
+      "license": "ICOS RI, CC BY 4.0"
+    },
+    "limitations": [
+      "Physical depth-to-index and annual crop chronology not available in downloaded METEO files; do not assign a single crop to the whole record.",
+      "No measured irrigation event series in this product.",
+      "Missing -9999 retained as null; each hourly value requires both half-hours; columns ending _N and _SD preserved."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": "https://www.icos-belgium.be/news.php",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "lamasquere",
+    "metadata": {
+      "dataset_id": "lamasquere",
+      "site": "Lamasquère / Lamothe",
+      "country": "France",
+      "region": "Haute-Garonne",
+      "source_url": "https://meta.icos-cp.eu/objects/tZlz-zEjgsdC11OtOL2Ijz6Z",
+      "crop": "unknown",
+      "crop_context": "winter wheat; silage maize rotation",
+      "crop_provenance": "unknown per timestamp",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "irrigated; delivery method unknown",
+      "time_basis": "local standard time UTC+01:00; no DST",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "lamasquere",
+      "source_product": "ICOS ETC L2 Meteo",
+      "license": "ICOS RI, CC BY 4.0"
+    },
+    "limitations": [
+      "Physical depth-to-index and annual crop chronology not available in downloaded METEO files; do not assign a single crop to the whole record.",
+      "No measured irrigation event series in this product.",
+      "Missing -9999 retained as null; each hourly value requires both half-hours; columns ending _N and _SD preserved."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": "https://osr.cesbio.cnrs.fr/les-2-sites-flux-icos/lamasquere/",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "klingenberg",
+    "metadata": {
+      "dataset_id": "klingenberg",
+      "site": "Klingenberg",
+      "country": "Germany",
+      "region": "Saxony, Erzgebirge foreland",
+      "source_url": "https://meta.icos-cp.eu/objects/WJpiQa9U59h5v204K77o4wJY",
+      "crop": "unknown",
+      "crop_context": "rapeseed; winter wheat; forage maize; spring and winter barley rotation",
+      "crop_provenance": "unknown per timestamp",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "unknown",
+      "time_basis": "local standard time UTC+01:00; no DST",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "klingenberg",
+      "source_product": "ICOS ETC L2 Meteo",
+      "license": "ICOS RI, CC BY 4.0"
+    },
+    "limitations": [
+      "Physical depth-to-index and annual crop chronology not available in downloaded METEO files; do not assign a single crop to the whole record.",
+      "No measured irrigation event series in this product.",
+      "Missing -9999 retained as null; each hourly value requires both half-hours; columns ending _N and _SD preserved."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": "https://deims.org/7b63aec7-1307-4e9d-b655-9290b40bbb7d",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "selhausen",
+    "metadata": {
+      "dataset_id": "selhausen",
+      "site": "Selhausen Juelich",
+      "country": "Germany",
+      "region": "North Rhine-Westphalia",
+      "source_url": "https://meta.icos-cp.eu/objects/nUzNGoFrYE29WG5LGK0C9MtY",
+      "crop": "unknown",
+      "crop_context": "cropland; winter wheat documented; regional sugar beet, barley, maize and rapeseed",
+      "crop_provenance": "unknown per timestamp",
+      "soil_type": "Luvisol (site literature)",
+      "soil_provenance": "researched site context",
+      "irrigation_method": "unknown",
+      "time_basis": "local standard time UTC+01:00; no DST",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "selhausen",
+      "source_product": "ICOS ETC L2 Meteo",
+      "license": "ICOS RI, CC BY 4.0"
+    },
+    "limitations": [
+      "Physical depth-to-index and annual crop chronology not available in downloaded METEO files; do not assign a single crop to the whole record.",
+      "No measured irrigation event series in this product.",
+      "Missing -9999 retained as null; each hourly value requires both half-hours; columns ending _N and _SD preserved."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": "https://www.icos-infrastruktur.de/en/icos-d/components/ecosystem/study-sites/selhausen-c1",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "cook",
+    "metadata": [
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF003",
+        "field_id": "A",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SP",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SL",
+          "2011": "SW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "SW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF003",
+            "Depth": 30,
+            "Silt": 58.923,
+            "Clay": 29.667,
+            "Sand": 11.41
+          },
+          {
+            "Location": "CAF003",
+            "Depth": 60,
+            "Silt": 57.365,
+            "Clay": 28.198,
+            "Sand": 14.43
+          },
+          {
+            "Location": "CAF003",
+            "Depth": 90,
+            "Silt": 56.312,
+            "Clay": 33.806,
+            "Sand": 9.882
+          },
+          {
+            "Location": "CAF003",
+            "Depth": 120,
+            "Silt": 59.873,
+            "Clay": 27.021,
+            "Sand": 13.106
+          },
+          {
+            "Location": "CAF003",
+            "Depth": 150,
+            "Silt": 56.406,
+            "Clay": 31.722,
+            "Sand": 11.872
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF007",
+        "field_id": "B",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SL",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF007",
+            "Depth": 30,
+            "Silt": 64.229,
+            "Clay": 28.11,
+            "Sand": 7.661
+          },
+          {
+            "Location": "CAF007",
+            "Depth": 60,
+            "Silt": 60.112,
+            "Clay": 28.605,
+            "Sand": 11.281
+          },
+          {
+            "Location": "CAF007",
+            "Depth": 90,
+            "Silt": 61.236,
+            "Clay": 27.264,
+            "Sand": 11.491
+          },
+          {
+            "Location": "CAF007",
+            "Depth": 120,
+            "Silt": 61.975,
+            "Clay": 26.467,
+            "Sand": 11.568
+          },
+          {
+            "Location": "CAF007",
+            "Depth": 150,
+            "Silt": 65.175,
+            "Clay": 21.653,
+            "Sand": 13.173
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF009",
+        "field_id": "B",
+        "strip_id": "4",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "WT",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF009",
+            "Depth": 30,
+            "Silt": 62.778,
+            "Clay": 28.372,
+            "Sand": 8.846
+          },
+          {
+            "Location": "CAF009",
+            "Depth": 60,
+            "Silt": 59.531,
+            "Clay": 27.51,
+            "Sand": 12.967
+          },
+          {
+            "Location": "CAF009",
+            "Depth": 90,
+            "Silt": 56.665,
+            "Clay": 28.932,
+            "Sand": 14.404
+          },
+          {
+            "Location": "CAF009",
+            "Depth": 120,
+            "Silt": 55.691,
+            "Clay": 29.54,
+            "Sand": 14.769
+          },
+          {
+            "Location": "CAF009",
+            "Depth": 150,
+            "Silt": 61.695,
+            "Clay": 22.464,
+            "Sand": 15.841
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF019",
+        "field_id": "A",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WL",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF019",
+            "Depth": 30,
+            "Silt": 49.343,
+            "Clay": 34.385,
+            "Sand": 16.272
+          },
+          {
+            "Location": "CAF019",
+            "Depth": 60,
+            "Silt": 54.935,
+            "Clay": 34.323,
+            "Sand": 10.742
+          },
+          {
+            "Location": "CAF019",
+            "Depth": 90,
+            "Silt": 52.577,
+            "Clay": 37.395,
+            "Sand": 10.027
+          },
+          {
+            "Location": "CAF019",
+            "Depth": 120,
+            "Silt": 51.128,
+            "Clay": 35.526,
+            "Sand": 13.336
+          },
+          {
+            "Location": "CAF019",
+            "Depth": 150,
+            "Silt": 49.77,
+            "Clay": 34.091,
+            "Sand": 16.129
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF031",
+        "field_id": "B",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SB",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SB",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF031",
+            "Depth": 30,
+            "Silt": 57.516,
+            "Clay": 30.338,
+            "Sand": 12.144
+          },
+          {
+            "Location": "CAF031",
+            "Depth": 60,
+            "Silt": 58.231,
+            "Clay": 29.125,
+            "Sand": 12.635
+          },
+          {
+            "Location": "CAF031",
+            "Depth": 90,
+            "Silt": 58.989,
+            "Clay": 28.333,
+            "Sand": 12.678
+          },
+          {
+            "Location": "CAF031",
+            "Depth": 120,
+            "Silt": 64.954,
+            "Clay": 24.555,
+            "Sand": 10.481
+          },
+          {
+            "Location": "CAF031",
+            "Depth": 150,
+            "Silt": 70.409,
+            "Clay": 18.419,
+            "Sand": 11.171
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF033",
+        "field_id": "B",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SP",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SL",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF033",
+            "Depth": 30,
+            "Silt": 63.46,
+            "Clay": 24.651,
+            "Sand": 11.889
+          },
+          {
+            "Location": "CAF033",
+            "Depth": 60,
+            "Silt": 70.773,
+            "Clay": 15.157,
+            "Sand": 14.071
+          },
+          {
+            "Location": "CAF033",
+            "Depth": 90,
+            "Silt": 72.994,
+            "Clay": 12.272,
+            "Sand": 14.734
+          },
+          {
+            "Location": "CAF033",
+            "Depth": 120,
+            "Silt": 69.695,
+            "Clay": 15.883,
+            "Sand": 14.422
+          },
+          {
+            "Location": "CAF033",
+            "Depth": 150,
+            "Silt": 65.235,
+            "Clay": 20.488,
+            "Sand": 14.276
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF035",
+        "field_id": "C",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SL",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "SW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "SC",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF035",
+            "Depth": 30,
+            "Silt": 57.91,
+            "Clay": 34.129,
+            "Sand": 7.961
+          },
+          {
+            "Location": "CAF035",
+            "Depth": 60,
+            "Silt": 58.708,
+            "Clay": 29.024,
+            "Sand": 12.267
+          },
+          {
+            "Location": "CAF035",
+            "Depth": 90,
+            "Silt": 61.874,
+            "Clay": 24.346,
+            "Sand": 13.778
+          },
+          {
+            "Location": "CAF035",
+            "Depth": 120,
+            "Silt": 52.534,
+            "Clay": 37.22,
+            "Sand": 10.246
+          },
+          {
+            "Location": "CAF035",
+            "Depth": 150,
+            "Silt": 46.077,
+            "Clay": 44.113,
+            "Sand": 9.809
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF061",
+        "field_id": "C",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SB",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SB",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SB",
+          "2015": "SW",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF061",
+            "Depth": 30,
+            "Silt": 56.487,
+            "Clay": 33.197,
+            "Sand": 10.32
+          },
+          {
+            "Location": "CAF061",
+            "Depth": 60,
+            "Silt": 58.385,
+            "Clay": 31.177,
+            "Sand": 10.438
+          },
+          {
+            "Location": "CAF061",
+            "Depth": 90,
+            "Silt": 60.81,
+            "Clay": 29.029,
+            "Sand": 10.16
+          },
+          {
+            "Location": "CAF061",
+            "Depth": 120,
+            "Silt": 55.55,
+            "Clay": 32.941,
+            "Sand": 11.509
+          },
+          {
+            "Location": "CAF061",
+            "Depth": 150,
+            "Silt": 52.469,
+            "Clay": 35.296,
+            "Sand": 12.234
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF067",
+        "field_id": "C",
+        "strip_id": "7",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SP",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SW",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SW",
+          "2015": "SL",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF067",
+            "Depth": 30,
+            "Silt": 56.954,
+            "Clay": 29.586,
+            "Sand": 13.464
+          },
+          {
+            "Location": "CAF067",
+            "Depth": 60,
+            "Silt": 61.022,
+            "Clay": 26.696,
+            "Sand": 12.285
+          },
+          {
+            "Location": "CAF067",
+            "Depth": 90,
+            "Silt": 62.094,
+            "Clay": 26.592,
+            "Sand": 11.314
+          },
+          {
+            "Location": "CAF067",
+            "Depth": 120,
+            "Silt": 52.889,
+            "Clay": 35.536,
+            "Sand": 11.575
+          },
+          {
+            "Location": "CAF067",
+            "Depth": 150,
+            "Silt": 53.695,
+            "Clay": 34.357,
+            "Sand": 11.948
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF075",
+        "field_id": "A",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SB",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SB",
+          "2011": "SW",
+          "2012": "WW",
+          "2013": "SB",
+          "2014": "SW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF075",
+            "Depth": 30,
+            "Silt": 60.795,
+            "Clay": 27.572,
+            "Sand": 11.636
+          },
+          {
+            "Location": "CAF075",
+            "Depth": 60,
+            "Silt": 63.318,
+            "Clay": 21.61,
+            "Sand": 15.082
+          },
+          {
+            "Location": "CAF075",
+            "Depth": 90,
+            "Silt": 65.263,
+            "Clay": 25.089,
+            "Sand": 9.648
+          },
+          {
+            "Location": "CAF075",
+            "Depth": 120,
+            "Silt": 55.857,
+            "Clay": 29.924,
+            "Sand": 14.219
+          },
+          {
+            "Location": "CAF075",
+            "Depth": 150,
+            "Silt": 60.115,
+            "Clay": 25.453,
+            "Sand": 14.432
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF079",
+        "field_id": "B",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SL",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF079",
+            "Depth": 30,
+            "Silt": 61.095,
+            "Clay": 28.0,
+            "Sand": 10.904
+          },
+          {
+            "Location": "CAF079",
+            "Depth": 60,
+            "Silt": 62.262,
+            "Clay": 26.158,
+            "Sand": 11.581
+          },
+          {
+            "Location": "CAF079",
+            "Depth": 90,
+            "Silt": 69.068,
+            "Clay": 13.569,
+            "Sand": 17.354
+          },
+          {
+            "Location": "CAF079",
+            "Depth": 120,
+            "Silt": 63.35,
+            "Clay": 24.817,
+            "Sand": 11.833
+          },
+          {
+            "Location": "CAF079",
+            "Depth": 150,
+            "Silt": 62.726,
+            "Clay": 24.886,
+            "Sand": 12.387
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF095",
+        "field_id": "A",
+        "strip_id": "1",
+        "annual_crop_codes": {
+          "2007": "WT",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF095",
+            "Depth": 30,
+            "Silt": 61.243,
+            "Clay": 22.596,
+            "Sand": 16.16
+          },
+          {
+            "Location": "CAF095",
+            "Depth": 60,
+            "Silt": 63.094,
+            "Clay": 21.21,
+            "Sand": 15.697
+          },
+          {
+            "Location": "CAF095",
+            "Depth": 90,
+            "Silt": 65.894,
+            "Clay": 21.987,
+            "Sand": 12.119
+          },
+          {
+            "Location": "CAF095",
+            "Depth": 120,
+            "Silt": 64.496,
+            "Clay": 22.558,
+            "Sand": 12.947
+          },
+          {
+            "Location": "CAF095",
+            "Depth": 150,
+            "Silt": 64.418,
+            "Clay": 22.995,
+            "Sand": 12.586
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF119",
+        "field_id": "C",
+        "strip_id": "7",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SP",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SW",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SW",
+          "2015": "SL",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF119",
+            "Depth": 30,
+            "Silt": 57.323,
+            "Clay": 28.554,
+            "Sand": 14.122
+          },
+          {
+            "Location": "CAF119",
+            "Depth": 60,
+            "Silt": 56.274,
+            "Clay": 27.529,
+            "Sand": 16.197
+          },
+          {
+            "Location": "CAF119",
+            "Depth": 90,
+            "Silt": 57.93,
+            "Clay": 26.601,
+            "Sand": 15.469
+          },
+          {
+            "Location": "CAF119",
+            "Depth": 120,
+            "Silt": 52.053,
+            "Clay": 32.081,
+            "Sand": 15.867
+          },
+          {
+            "Location": "CAF119",
+            "Depth": 150,
+            "Silt": 50.056,
+            "Clay": 34.245,
+            "Sand": 15.709
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF125",
+        "field_id": "A",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SC",
+          "2008": "WC",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF125",
+            "Depth": 30,
+            "Silt": 62.391,
+            "Clay": 25.71,
+            "Sand": 11.899
+          },
+          {
+            "Location": "CAF125",
+            "Depth": 60,
+            "Silt": 66.267,
+            "Clay": 22.475,
+            "Sand": 11.262
+          },
+          {
+            "Location": "CAF125",
+            "Depth": 90,
+            "Silt": 65.469,
+            "Clay": 22.678,
+            "Sand": 11.854
+          },
+          {
+            "Location": "CAF125",
+            "Depth": 120,
+            "Silt": 60.27,
+            "Clay": 26.976,
+            "Sand": 12.754
+          },
+          {
+            "Location": "CAF125",
+            "Depth": 150,
+            "Silt": 57.053,
+            "Clay": 29.557,
+            "Sand": 13.38
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF129",
+        "field_id": "A",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SB",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SB",
+          "2011": "SW",
+          "2012": "WW",
+          "2013": "SB",
+          "2014": "SW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF129",
+            "Depth": 30,
+            "Silt": 56.934,
+            "Clay": 31.858,
+            "Sand": 11.208
+          },
+          {
+            "Location": "CAF129",
+            "Depth": 60,
+            "Silt": 58.861,
+            "Clay": 27.292,
+            "Sand": 13.843
+          },
+          {
+            "Location": "CAF129",
+            "Depth": 90,
+            "Silt": 60.34,
+            "Clay": 29.028,
+            "Sand": 10.624
+          },
+          {
+            "Location": "CAF129",
+            "Depth": 120,
+            "Silt": 57.977,
+            "Clay": 32.17,
+            "Sand": 9.853
+          },
+          {
+            "Location": "CAF129",
+            "Depth": 150,
+            "Silt": 59.951,
+            "Clay": 28.795,
+            "Sand": 11.254
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF133",
+        "field_id": "B",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SL",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF133",
+            "Depth": 30,
+            "Silt": 57.601,
+            "Clay": 30.579,
+            "Sand": 11.819
+          },
+          {
+            "Location": "CAF133",
+            "Depth": 60,
+            "Silt": 55.164,
+            "Clay": 36.017,
+            "Sand": 8.819
+          },
+          {
+            "Location": "CAF133",
+            "Depth": 90,
+            "Silt": 67.532,
+            "Clay": 17.443,
+            "Sand": 15.032
+          },
+          {
+            "Location": "CAF133",
+            "Depth": 120,
+            "Silt": 56.39,
+            "Clay": 30.77,
+            "Sand": 12.84
+          },
+          {
+            "Location": "CAF133",
+            "Depth": 150,
+            "Silt": 52.869,
+            "Clay": 32.846,
+            "Sand": 14.285
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF135",
+        "field_id": "B",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SB",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SB",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF135",
+            "Depth": 30,
+            "Silt": 52.344,
+            "Clay": 31.018,
+            "Sand": 16.641
+          },
+          {
+            "Location": "CAF135",
+            "Depth": 60,
+            "Silt": 55.545,
+            "Clay": 29.167,
+            "Sand": 15.294
+          },
+          {
+            "Location": "CAF135",
+            "Depth": 90,
+            "Silt": 55.537,
+            "Clay": 30.95,
+            "Sand": 13.512
+          },
+          {
+            "Location": "CAF135",
+            "Depth": 120,
+            "Silt": 58.994,
+            "Clay": 28.763,
+            "Sand": 12.242
+          },
+          {
+            "Location": "CAF135",
+            "Depth": 150,
+            "Silt": 57.579,
+            "Clay": 32.685,
+            "Sand": 9.726
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF139",
+        "field_id": "C",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SL",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "SW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "SC",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF139",
+            "Depth": 30,
+            "Silt": 59.67,
+            "Clay": 27.54,
+            "Sand": 12.791
+          },
+          {
+            "Location": "CAF139",
+            "Depth": 60,
+            "Silt": 50.602,
+            "Clay": 42.561,
+            "Sand": 6.837
+          },
+          {
+            "Location": "CAF139",
+            "Depth": 90,
+            "Silt": 43.472,
+            "Clay": 45.779,
+            "Sand": 10.749
+          },
+          {
+            "Location": "CAF139",
+            "Depth": 120,
+            "Silt": 57.841,
+            "Clay": 29.888,
+            "Sand": 12.26
+          },
+          {
+            "Location": "CAF139",
+            "Depth": 150,
+            "Silt": 75.281,
+            "Clay": 12.185,
+            "Sand": 12.51
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF141",
+        "field_id": "C",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SB",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SB",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SB",
+          "2015": "SW",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF141",
+            "Depth": 30,
+            "Silt": 61.904,
+            "Clay": 25.582,
+            "Sand": 12.514
+          },
+          {
+            "Location": "CAF141",
+            "Depth": 60,
+            "Silt": 50.455,
+            "Clay": 39.873,
+            "Sand": 9.668
+          },
+          {
+            "Location": "CAF141",
+            "Depth": 90,
+            "Silt": 48.671,
+            "Clay": 43.187,
+            "Sand": 8.141
+          },
+          {
+            "Location": "CAF141",
+            "Depth": 120,
+            "Silt": 54.626,
+            "Clay": 35.983,
+            "Sand": 9.391
+          },
+          {
+            "Location": "CAF141",
+            "Depth": 150,
+            "Silt": 65.331,
+            "Clay": 21.012,
+            "Sand": 13.656
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF163",
+        "field_id": "B",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SP",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SL",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF163",
+            "Depth": 30,
+            "Silt": 46.749,
+            "Clay": 28.919,
+            "Sand": 24.322
+          },
+          {
+            "Location": "CAF163",
+            "Depth": 60,
+            "Silt": 48.487,
+            "Clay": 29.589,
+            "Sand": 21.921
+          },
+          {
+            "Location": "CAF163",
+            "Depth": 90,
+            "Silt": 56.288,
+            "Clay": 26.849,
+            "Sand": 16.864
+          },
+          {
+            "Location": "CAF163",
+            "Depth": 120,
+            "Silt": 57.61,
+            "Clay": 29.001,
+            "Sand": 13.398
+          },
+          {
+            "Location": "CAF163",
+            "Depth": 150,
+            "Silt": 56.274,
+            "Clay": 29.346,
+            "Sand": 14.38
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF173",
+        "field_id": "C",
+        "strip_id": "7",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SP",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SW",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SW",
+          "2015": "SL",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF173",
+            "Depth": 30,
+            "Silt": 60.374,
+            "Clay": 29.326,
+            "Sand": 10.303
+          },
+          {
+            "Location": "CAF173",
+            "Depth": 60,
+            "Silt": 56.958,
+            "Clay": 35.605,
+            "Sand": 7.436
+          },
+          {
+            "Location": "CAF173",
+            "Depth": 90,
+            "Silt": 48.723,
+            "Clay": 39.085,
+            "Sand": 12.192
+          },
+          {
+            "Location": "CAF173",
+            "Depth": 120,
+            "Silt": 50.15,
+            "Clay": 36.961,
+            "Sand": 12.89
+          },
+          {
+            "Location": "CAF173",
+            "Depth": 150,
+            "Silt": 56.457,
+            "Clay": 31.795,
+            "Sand": 11.758
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF197",
+        "field_id": "C",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SP",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SW",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SW",
+          "2015": "SL",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF197",
+            "Depth": 30,
+            "Silt": 64.001,
+            "Clay": 22.978,
+            "Sand": 13.021
+          },
+          {
+            "Location": "CAF197",
+            "Depth": 60,
+            "Silt": 59.074,
+            "Clay": 31.515,
+            "Sand": 9.413
+          },
+          {
+            "Location": "CAF197",
+            "Depth": 90,
+            "Silt": 61.905,
+            "Clay": 25.304,
+            "Sand": 12.793
+          },
+          {
+            "Location": "CAF197",
+            "Depth": 120,
+            "Silt": 61.614,
+            "Clay": 25.056,
+            "Sand": 13.329
+          },
+          {
+            "Location": "CAF197",
+            "Depth": 150,
+            "Silt": 67.017,
+            "Clay": 20.805,
+            "Sand": 12.169
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF201",
+        "field_id": "A",
+        "strip_id": "1",
+        "annual_crop_codes": {
+          "2007": "WT",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF201",
+            "Depth": 30,
+            "Silt": 62.054,
+            "Clay": 24.952,
+            "Sand": 12.993
+          },
+          {
+            "Location": "CAF201",
+            "Depth": 60,
+            "Silt": 57.243,
+            "Clay": 26.493,
+            "Sand": 16.264
+          },
+          {
+            "Location": "CAF201",
+            "Depth": 90,
+            "Silt": 49.11,
+            "Clay": 35.937,
+            "Sand": 14.954
+          },
+          {
+            "Location": "CAF201",
+            "Depth": 120,
+            "Silt": 51.421,
+            "Clay": 35.734,
+            "Sand": 12.855
+          },
+          {
+            "Location": "CAF201",
+            "Depth": 150,
+            "Silt": 50.957,
+            "Clay": 32.77,
+            "Sand": 16.263
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF205",
+        "field_id": "A",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SP",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SL",
+          "2011": "SW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "SW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF205",
+            "Depth": 30,
+            "Silt": 59.346,
+            "Clay": 27.217,
+            "Sand": 13.446
+          },
+          {
+            "Location": "CAF205",
+            "Depth": 60,
+            "Silt": 55.008,
+            "Clay": 33.84,
+            "Sand": 11.157
+          },
+          {
+            "Location": "CAF205",
+            "Depth": 90,
+            "Silt": 54.742,
+            "Clay": 30.014,
+            "Sand": 15.253
+          },
+          {
+            "Location": "CAF205",
+            "Depth": 120,
+            "Silt": 43.982,
+            "Clay": 40.879,
+            "Sand": 15.139
+          },
+          {
+            "Location": "CAF205",
+            "Depth": 150,
+            "Silt": 56.102,
+            "Clay": 33.54,
+            "Sand": 10.368
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF209",
+        "field_id": "B",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "WP",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF209",
+            "Depth": 30,
+            "Silt": 57.689,
+            "Clay": 31.665,
+            "Sand": 10.647
+          },
+          {
+            "Location": "CAF209",
+            "Depth": 60,
+            "Silt": 50.596,
+            "Clay": 38.919,
+            "Sand": 10.485
+          },
+          {
+            "Location": "CAF209",
+            "Depth": 90,
+            "Silt": 48.584,
+            "Clay": 42.699,
+            "Sand": 8.718
+          },
+          {
+            "Location": "CAF209",
+            "Depth": 120,
+            "Silt": 51.482,
+            "Clay": 36.996,
+            "Sand": 11.521
+          },
+          {
+            "Location": "CAF209",
+            "Depth": 150,
+            "Silt": 60.041,
+            "Clay": 28.706,
+            "Sand": 11.254
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF215",
+        "field_id": "B",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SP",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SL",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF215",
+            "Depth": 30,
+            "Silt": 61.212,
+            "Clay": 25.835,
+            "Sand": 12.955
+          },
+          {
+            "Location": "CAF215",
+            "Depth": 60,
+            "Silt": 60.926,
+            "Clay": 29.912,
+            "Sand": 9.171
+          },
+          {
+            "Location": "CAF215",
+            "Depth": 90,
+            "Silt": 62.238,
+            "Clay": 26.55,
+            "Sand": 11.213
+          },
+          {
+            "Location": "CAF215",
+            "Depth": 120,
+            "Silt": 60.848,
+            "Clay": 26.751,
+            "Sand": 12.4
+          },
+          {
+            "Location": "CAF215",
+            "Depth": 150,
+            "Silt": 68.704,
+            "Clay": 17.31,
+            "Sand": 13.977
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF217",
+        "field_id": "C",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SL",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "SW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF217",
+            "Depth": 30,
+            "Silt": 60.431,
+            "Clay": 29.566,
+            "Sand": 10.004
+          },
+          {
+            "Location": "CAF217",
+            "Depth": 60,
+            "Silt": 55.674,
+            "Clay": 28.974,
+            "Sand": 15.353
+          },
+          {
+            "Location": "CAF217",
+            "Depth": 90,
+            "Silt": 64.281,
+            "Clay": 24.44,
+            "Sand": 11.27
+          },
+          {
+            "Location": "CAF217",
+            "Depth": 120,
+            "Silt": 63.428,
+            "Clay": 29.437,
+            "Sand": 7.135
+          },
+          {
+            "Location": "CAF217",
+            "Depth": 150,
+            "Silt": 63.721,
+            "Clay": 24.167,
+            "Sand": 12.122
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF231",
+        "field_id": "A",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SB",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SB",
+          "2011": "SW",
+          "2012": "WW",
+          "2013": "SB",
+          "2014": "SW",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF231",
+            "Depth": 30,
+            "Silt": 55.395,
+            "Clay": 26.399,
+            "Sand": 18.206
+          },
+          {
+            "Location": "CAF231",
+            "Depth": 60,
+            "Silt": 59.445,
+            "Clay": 25.804,
+            "Sand": 14.75
+          },
+          {
+            "Location": "CAF231",
+            "Depth": 90,
+            "Silt": 61.487,
+            "Clay": 23.396,
+            "Sand": 15.125
+          },
+          {
+            "Location": "CAF231",
+            "Depth": 120,
+            "Silt": 69.764,
+            "Clay": 19.021,
+            "Sand": 11.207
+          },
+          {
+            "Location": "CAF231",
+            "Depth": 150,
+            "Silt": 69.579,
+            "Clay": 18.308,
+            "Sand": 12.113
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF237",
+        "field_id": "B",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SB",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SB",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF237",
+            "Depth": 30,
+            "Silt": 59.171,
+            "Clay": 31.444,
+            "Sand": 9.376
+          },
+          {
+            "Location": "CAF237",
+            "Depth": 60,
+            "Silt": 57.942,
+            "Clay": 28.172,
+            "Sand": 13.877
+          },
+          {
+            "Location": "CAF237",
+            "Depth": 90,
+            "Silt": 56.498,
+            "Clay": 32.128,
+            "Sand": 11.374
+          },
+          {
+            "Location": "CAF237",
+            "Depth": 120,
+            "Silt": 59.233,
+            "Clay": 30.141,
+            "Sand": 10.626
+          },
+          {
+            "Location": "CAF237",
+            "Depth": 150,
+            "Silt": 65.489,
+            "Clay": 25.152,
+            "Sand": 9.36
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF245",
+        "field_id": "C",
+        "strip_id": "4",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "WT",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "WW",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "WW",
+          "2015": "SL",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF245",
+            "Depth": 30,
+            "Silt": 61.105,
+            "Clay": 24.189,
+            "Sand": 14.696
+          },
+          {
+            "Location": "CAF245",
+            "Depth": 60,
+            "Silt": 60.928,
+            "Clay": 29.851,
+            "Sand": 9.221
+          },
+          {
+            "Location": "CAF245",
+            "Depth": 90,
+            "Silt": 59.895,
+            "Clay": 26.506,
+            "Sand": 13.599
+          },
+          {
+            "Location": "CAF245",
+            "Depth": 120,
+            "Silt": 57.656,
+            "Clay": 30.043,
+            "Sand": 12.3
+          },
+          {
+            "Location": "CAF245",
+            "Depth": 150,
+            "Silt": 61.723,
+            "Clay": 27.386,
+            "Sand": 10.892
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF275",
+        "field_id": "A",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SC",
+          "2008": "WC",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF275",
+            "Depth": 30,
+            "Silt": 58.225,
+            "Clay": 29.012,
+            "Sand": 12.763
+          },
+          {
+            "Location": "CAF275",
+            "Depth": 60,
+            "Silt": 62.872,
+            "Clay": 20.347,
+            "Sand": 16.781
+          },
+          {
+            "Location": "CAF275",
+            "Depth": 90,
+            "Silt": 62.418,
+            "Clay": 25.69,
+            "Sand": 11.892
+          },
+          {
+            "Location": "CAF275",
+            "Depth": 120,
+            "Silt": 61.807,
+            "Clay": 25.162,
+            "Sand": 13.031
+          },
+          {
+            "Location": "CAF275",
+            "Depth": 150,
+            "Silt": 64.649,
+            "Clay": 24.236,
+            "Sand": 11.114
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF308",
+        "field_id": "B",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SL",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF308",
+            "Depth": 30,
+            "Silt": 61.957,
+            "Clay": 25.543,
+            "Sand": 12.5
+          },
+          {
+            "Location": "CAF308",
+            "Depth": 60,
+            "Silt": 60.674,
+            "Clay": 27.473,
+            "Sand": 11.853
+          },
+          {
+            "Location": "CAF308",
+            "Depth": 90,
+            "Silt": 65.086,
+            "Clay": 21.937,
+            "Sand": 12.977
+          },
+          {
+            "Location": "CAF308",
+            "Depth": 120,
+            "Silt": 60.544,
+            "Clay": 25.857,
+            "Sand": 13.589
+          },
+          {
+            "Location": "CAF308",
+            "Depth": 150,
+            "Silt": 48.511,
+            "Clay": 32.857,
+            "Sand": 18.61
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF310",
+        "field_id": "B",
+        "strip_id": "5",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SB",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SB",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF310",
+            "Depth": 30,
+            "Silt": 62.591,
+            "Clay": 23.295,
+            "Sand": 14.114
+          },
+          {
+            "Location": "CAF310",
+            "Depth": 60,
+            "Silt": 62.884,
+            "Clay": 25.405,
+            "Sand": 11.711
+          },
+          {
+            "Location": "CAF310",
+            "Depth": 90,
+            "Silt": 63.248,
+            "Clay": 21.481,
+            "Sand": 15.272
+          },
+          {
+            "Location": "CAF310",
+            "Depth": 120,
+            "Silt": 62.973,
+            "Clay": 23.91,
+            "Sand": 13.117
+          },
+          {
+            "Location": "CAF310",
+            "Depth": 150,
+            "Silt": 60.409,
+            "Clay": 21.629,
+            "Sand": 17.962
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF312",
+        "field_id": "B",
+        "strip_id": "6",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SP",
+          "2010": "SW",
+          "2011": "WW",
+          "2012": "SB",
+          "2013": "SW",
+          "2014": "WW",
+          "2015": "SL",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF312",
+            "Depth": 30,
+            "Silt": 58.68,
+            "Clay": 26.328,
+            "Sand": 14.993
+          },
+          {
+            "Location": "CAF312",
+            "Depth": 60,
+            "Silt": 63.209,
+            "Clay": 24.378,
+            "Sand": 12.412
+          },
+          {
+            "Location": "CAF312",
+            "Depth": 90,
+            "Silt": 58.368,
+            "Clay": 27.823,
+            "Sand": 13.817
+          },
+          {
+            "Location": "CAF312",
+            "Depth": 120,
+            "Silt": 61.24,
+            "Clay": 24.218,
+            "Sand": 14.541
+          },
+          {
+            "Location": "CAF312",
+            "Depth": 150,
+            "Silt": 65.734,
+            "Clay": 23.308,
+            "Sand": 10.958
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF314",
+        "field_id": "C",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SL",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SL",
+          "2012": "SW",
+          "2013": "WW",
+          "2014": "SL",
+          "2015": "SC",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF314",
+            "Depth": 30,
+            "Silt": 64.241,
+            "Clay": 25.261,
+            "Sand": 10.498
+          },
+          {
+            "Location": "CAF314",
+            "Depth": 60,
+            "Silt": 59.221,
+            "Clay": 19.411,
+            "Sand": 21.368
+          },
+          {
+            "Location": "CAF314",
+            "Depth": 90,
+            "Silt": 50.985,
+            "Clay": 35.906,
+            "Sand": 13.108
+          },
+          {
+            "Location": "CAF314",
+            "Depth": 120,
+            "Silt": 52.059,
+            "Clay": 37.213,
+            "Sand": 10.718
+          },
+          {
+            "Location": "CAF314",
+            "Depth": 150,
+            "Silt": 50.131,
+            "Clay": 36.624,
+            "Sand": 13.245
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF316",
+        "field_id": "C",
+        "strip_id": "3",
+        "annual_crop_codes": {
+          "2007": "WW",
+          "2008": "SB",
+          "2009": "SW",
+          "2010": "WW",
+          "2011": "SB",
+          "2012": "SL",
+          "2013": "WW",
+          "2014": "SB",
+          "2015": "SW",
+          "2016": "WW"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF316",
+            "Depth": 30,
+            "Silt": 62.117,
+            "Clay": 23.574,
+            "Sand": 14.309
+          },
+          {
+            "Location": "CAF316",
+            "Depth": 60,
+            "Silt": 65.077,
+            "Clay": 18.264,
+            "Sand": 16.66
+          },
+          {
+            "Location": "CAF316",
+            "Depth": 90,
+            "Silt": 70.574,
+            "Clay": 12.105,
+            "Sand": 17.32
+          },
+          {
+            "Location": "CAF316",
+            "Depth": 120,
+            "Silt": 61.375,
+            "Clay": 25.063,
+            "Sand": 13.561
+          },
+          {
+            "Location": "CAF316",
+            "Depth": 150,
+            "Silt": 58.695,
+            "Clay": 28.753,
+            "Sand": 12.551
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF349",
+        "field_id": "A",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "WL",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF349",
+            "Depth": 30,
+            "Silt": 61.21,
+            "Clay": 27.347,
+            "Sand": 11.442
+          },
+          {
+            "Location": "CAF349",
+            "Depth": 60,
+            "Silt": 62.458,
+            "Clay": 27.21,
+            "Sand": 10.332
+          },
+          {
+            "Location": "CAF349",
+            "Depth": 90,
+            "Silt": 64.561,
+            "Clay": 24.82,
+            "Sand": 10.619
+          },
+          {
+            "Location": "CAF349",
+            "Depth": 120,
+            "Silt": 67.147,
+            "Clay": 21.059,
+            "Sand": 11.794
+          },
+          {
+            "Location": "CAF349",
+            "Depth": 150,
+            "Silt": 67.232,
+            "Clay": 21.099,
+            "Sand": 11.669
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF351",
+        "field_id": "A",
+        "strip_id": "4",
+        "annual_crop_codes": {
+          "2007": "Fallow",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF351",
+            "Depth": 30,
+            "Silt": 61.503,
+            "Clay": 28.198,
+            "Sand": 10.299
+          },
+          {
+            "Location": "CAF351",
+            "Depth": 60,
+            "Silt": 61.151,
+            "Clay": 27.396,
+            "Sand": 11.453
+          },
+          {
+            "Location": "CAF351",
+            "Depth": 90,
+            "Silt": 50.451,
+            "Clay": 24.413,
+            "Sand": 25.132
+          },
+          {
+            "Location": "CAF351",
+            "Depth": 120,
+            "Silt": 64.354,
+            "Clay": 22.908,
+            "Sand": 12.738
+          },
+          {
+            "Location": "CAF351",
+            "Depth": 150,
+            "Silt": null,
+            "Clay": null,
+            "Sand": null
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF357",
+        "field_id": "B",
+        "strip_id": "2",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "WP",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF357",
+            "Depth": 30,
+            "Silt": 61.314,
+            "Clay": 25.451,
+            "Sand": 13.236
+          },
+          {
+            "Location": "CAF357",
+            "Depth": 60,
+            "Silt": 56.915,
+            "Clay": 25.199,
+            "Sand": 17.886
+          },
+          {
+            "Location": "CAF357",
+            "Depth": 90,
+            "Silt": 64.513,
+            "Clay": 21.825,
+            "Sand": 13.662
+          },
+          {
+            "Location": "CAF357",
+            "Depth": 120,
+            "Silt": 58.292,
+            "Clay": 30.902,
+            "Sand": 10.806
+          },
+          {
+            "Location": "CAF357",
+            "Depth": 150,
+            "Silt": 41.851,
+            "Clay": 44.546,
+            "Sand": 13.603
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF377",
+        "field_id": "B",
+        "strip_id": "1",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SC",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF377",
+            "Depth": 30,
+            "Silt": 62.07,
+            "Clay": 25.948,
+            "Sand": 11.984
+          },
+          {
+            "Location": "CAF377",
+            "Depth": 60,
+            "Silt": 63.53,
+            "Clay": 22.612,
+            "Sand": 13.858
+          },
+          {
+            "Location": "CAF377",
+            "Depth": 90,
+            "Silt": 63.652,
+            "Clay": 23.963,
+            "Sand": 12.384
+          },
+          {
+            "Location": "CAF377",
+            "Depth": 120,
+            "Silt": 61.982,
+            "Clay": 25.491,
+            "Sand": 12.527
+          },
+          {
+            "Location": "CAF377",
+            "Depth": 150,
+            "Silt": 55.435,
+            "Clay": 26.579,
+            "Sand": 17.986
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF397",
+        "field_id": "A",
+        "strip_id": "4",
+        "annual_crop_codes": {
+          "2007": "Fallow",
+          "2008": "SW",
+          "2009": "WW",
+          "2010": "SW",
+          "2011": "SL",
+          "2012": "WW",
+          "2013": "SW",
+          "2014": "SL",
+          "2015": "WW",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF397",
+            "Depth": 30,
+            "Silt": 58.299,
+            "Clay": 28.443,
+            "Sand": 13.268
+          },
+          {
+            "Location": "CAF397",
+            "Depth": 60,
+            "Silt": 61.644,
+            "Clay": 26.086,
+            "Sand": 12.282
+          },
+          {
+            "Location": "CAF397",
+            "Depth": 90,
+            "Silt": 59.444,
+            "Clay": 26.941,
+            "Sand": 13.608
+          },
+          {
+            "Location": "CAF397",
+            "Depth": 120,
+            "Silt": 58.812,
+            "Clay": 27.685,
+            "Sand": 13.511
+          },
+          {
+            "Location": "CAF397",
+            "Depth": 150,
+            "Silt": 59.425,
+            "Clay": 27.963,
+            "Sand": 12.648
+          }
+        ]
+      },
+      {
+        "dataset_id": "cook",
+        "site": "Cook Agronomy Farm",
+        "country": "United States",
+        "region": "Pullman, Washington",
+        "source_url": "https://agdatacommons.nal.usda.gov/articles/dataset/24852273",
+        "crop": "unknown",
+        "crop_context": "documented annual dryland crop rotation",
+        "crop_provenance": "observed crop table joined by published spatial field/strip; annual label",
+        "soil_type": "site silt loam context; measured texture encoded by depth",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "rainfed",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "CAF401",
+        "field_id": "B",
+        "strip_id": "1",
+        "annual_crop_codes": {
+          "2007": "SW",
+          "2008": "WW",
+          "2009": "SC",
+          "2010": "SL",
+          "2011": "WW",
+          "2012": "WW",
+          "2013": "SL",
+          "2014": "WW",
+          "2015": "SC",
+          "2016": "SC"
+        },
+        "texture_records": [
+          {
+            "Location": "CAF401",
+            "Depth": 30,
+            "Silt": 59.423,
+            "Clay": 28.957,
+            "Sand": 11.621
+          },
+          {
+            "Location": "CAF401",
+            "Depth": 60,
+            "Silt": 62.899,
+            "Clay": 21.938,
+            "Sand": 15.163
+          },
+          {
+            "Location": "CAF401",
+            "Depth": 90,
+            "Silt": 65.829,
+            "Clay": 20.547,
+            "Sand": 13.624
+          },
+          {
+            "Location": "CAF401",
+            "Depth": 120,
+            "Silt": 58.878,
+            "Clay": 30.621,
+            "Sand": 10.501
+          },
+          {
+            "Location": "CAF401",
+            "Depth": 150,
+            "Silt": 49.77,
+            "Clay": 42.688,
+            "Sand": 7.542
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Crop table and shapefile attributes disagree in some entries: authoritative CAF_CropID.txt used for crop codes; polygons used only for spatial join.",
+      "Code WP lacks a definition in downloaded crop dictionary and remains unknown.",
+      "Annual crop labels do not provide planting/harvest dates.",
+      "Timezone unresolved; temperature below freezing excluded from training windows below."
+    ],
+    "processed_files": [
+      "CAF003.csv.gz",
+      "CAF007.csv.gz",
+      "CAF009.csv.gz",
+      "CAF019.csv.gz",
+      "CAF031.csv.gz",
+      "CAF033.csv.gz",
+      "CAF035.csv.gz",
+      "CAF061.csv.gz",
+      "CAF067.csv.gz",
+      "CAF075.csv.gz",
+      "CAF079.csv.gz",
+      "CAF095.csv.gz",
+      "CAF119.csv.gz",
+      "CAF125.csv.gz",
+      "CAF129.csv.gz",
+      "CAF133.csv.gz",
+      "CAF135.csv.gz",
+      "CAF139.csv.gz",
+      "CAF141.csv.gz",
+      "CAF163.csv.gz",
+      "CAF173.csv.gz",
+      "CAF197.csv.gz",
+      "CAF201.csv.gz",
+      "CAF205.csv.gz",
+      "CAF209.csv.gz",
+      "CAF215.csv.gz",
+      "CAF217.csv.gz",
+      "CAF231.csv.gz",
+      "CAF237.csv.gz",
+      "CAF245.csv.gz",
+      "CAF275.csv.gz",
+      "CAF308.csv.gz",
+      "CAF310.csv.gz",
+      "CAF312.csv.gz",
+      "CAF314.csv.gz",
+      "CAF316.csv.gz",
+      "CAF349.csv.gz",
+      "CAF351.csv.gz",
+      "CAF357.csv.gz",
+      "CAF377.csv.gz",
+      "CAF397.csv.gz",
+      "CAF401.csv.gz"
+    ],
+    "researched_context_source": "https://css.wsu.edu/farms-and-facilities/cook-agronomy-farm/",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "flanders",
+    "metadata": [
+      {
+        "dataset_id": "flanders",
+        "site": "Kruisem",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "leek",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_012384F3720B710DEE",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "012384F3720B710DEE",
+            "crop": "prei",
+            "location": "Kruisem",
+            "irr_method": "druppel",
+            "soil_type": "Sdp",
+            "bd_mean": 1.59,
+            "bd_1": 1.63,
+            "bd_2": 1.54,
+            "bd_3": 1.61,
+            "pF0_1": 0.35,
+            "pF0_2": 0.37,
+            "pF0_3": 0.36,
+            "pF2_1": 0.32,
+            "pF2_2": 0.31,
+            "pF2_3": 0.32,
+            "pF2.7_1": 0.25,
+            "pF2.7_2": 0.22,
+            "pF2.7_3": 0.23,
+            "pF4.2_1": 0.067,
+            "pF4.2_2": 0.09,
+            "pF4.2_3": 0.08,
+            "planting_date": 44323
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Sint-Katelijne-Waver",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "cauliflower",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_2F71D1",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "2F71D1",
+            "crop": "bloemkool",
+            "location": "Sint-Katelijne-Waver",
+            "irr_method": "druppel",
+            "soil_type": "Sdm",
+            "bd_mean": 1.41,
+            "bd_1": 1.35,
+            "bd_2": 1.4,
+            "bd_3": 1.47,
+            "pF0_1": 0.48,
+            "pF0_2": 0.45,
+            "pF0_3": 0.41,
+            "pF2_1": 0.27,
+            "pF2_2": 0.28,
+            "pF2_3": 0.28,
+            "pF2.7_1": 0.2,
+            "pF2.7_2": 0.21,
+            "pF2.7_3": 0.21,
+            "pF4.2_1": 0.058,
+            "pF4.2_2": 0.06,
+            "pF4.2_3": 0.063,
+            "planting_date": 44300
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "onion",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_C535CA",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "C535CA",
+            "crop": "ui",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Sbb",
+            "bd_mean": 1.54,
+            "bd_1": 1.55,
+            "bd_2": 1.54,
+            "bd_3": 1.54,
+            "pF0_1": 0.41,
+            "pF0_2": 0.41,
+            "pF0_3": 0.39,
+            "pF2_1": 0.26,
+            "pF2_2": 0.28,
+            "pF2_3": 0.26,
+            "pF2.7_1": 0.16,
+            "pF2.7_2": 0.16,
+            "pF2.7_3": 0.18,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44286
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "carrot",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_C54762",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "C54762",
+            "crop": "wortelen",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Scb",
+            "bd_mean": 1.44,
+            "bd_1": 1.45,
+            "bd_2": 1.43,
+            "bd_3": 1.43,
+            "pF0_1": 0.43,
+            "pF0_2": 0.43,
+            "pF0_3": 0.45,
+            "pF2_1": 0.25,
+            "pF2_2": 0.25,
+            "pF2_3": 0.26,
+            "pF2.7_1": 0.14,
+            "pF2.7_2": 0.14,
+            "pF2.7_3": 0.15,
+            "pF4.2_1": 0.043,
+            "pF4.2_2": 0.044,
+            "pF4.2_3": 0.048,
+            "planting_date": 44323
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "pea",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_C55D7C",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "C55D7C",
+            "crop": "erwt",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Scb",
+            "bd_mean": 1.5,
+            "bd_1": 1.5,
+            "bd_2": null,
+            "bd_3": 1.5,
+            "pF0_1": 0.41,
+            "pF0_2": null,
+            "pF0_3": 0.42,
+            "pF2_1": 0.25,
+            "pF2_2": null,
+            "pF2_3": 0.25,
+            "pF2.7_1": 0.15,
+            "pF2.7_2": null,
+            "pF2.7_3": 0.13,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44321
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Herent",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "chicory",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "silt loam",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021_C58157",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2021,
+            "sensor": "C58157",
+            "crop": "witloof",
+            "location": "Herent",
+            "irr_method": "druppel",
+            "soil_type": "Ada",
+            "bd_mean": 1.61,
+            "bd_1": 1.63,
+            "bd_2": 1.57,
+            "bd_3": 1.63,
+            "pF0_1": 0.37,
+            "pF0_2": 0.37,
+            "pF0_3": 0.36,
+            "pF2_1": 0.34,
+            "pF2_2": 0.34,
+            "pF2_3": 0.34,
+            "pF2.7_1": 0.31,
+            "pF2.7_2": 0.3,
+            "pF2.7_3": 0.3,
+            "pF4.2_1": 0.08,
+            "pF4.2_2": 0.08,
+            "pF4.2_3": 0.18,
+            "planting_date": 44348
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Sint-Katelijne-Waver",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "leek",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_2F71D1",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2022,
+            "sensor": "2F71D1",
+            "crop": "prei",
+            "location": "Sint-Katelijne-Waver",
+            "irr_method": "druppel",
+            "soil_type": "Sdm",
+            "bd_mean": 1.43,
+            "bd_1": 1.48,
+            "bd_2": 1.46,
+            "bd_3": 1.35,
+            "pF0_1": 0.45,
+            "pF0_2": 0.46,
+            "pF0_3": 0.48,
+            "pF2_1": 0.25,
+            "pF2_2": 0.26,
+            "pF2_3": 0.27,
+            "pF2.7_1": 0.17,
+            "pF2.7_2": 0.15,
+            "pF2.7_3": 0.17,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44687
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "pumpkin",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_C535CA",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2022,
+            "sensor": "C535CA",
+            "crop": "pompoen",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Sbb",
+            "bd_mean": 1.56,
+            "bd_1": 1.54,
+            "bd_2": 1.56,
+            "bd_3": 1.58,
+            "pF0_1": 0.43,
+            "pF0_2": 0.42,
+            "pF0_3": 0.4,
+            "pF2_1": 0.26,
+            "pF2_2": 0.27,
+            "pF2_3": 0.3,
+            "pF2.7_1": 0.14,
+            "pF2.7_2": 0.17,
+            "pF2.7_3": 0.19,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44694
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "DRIP vegetable fields",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "unknown",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "unknown",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_C54762",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": []
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kruisem",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "leek",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_C54986",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2022,
+            "sensor": "C54986",
+            "crop": "prei",
+            "location": "Kruisem",
+            "irr_method": "druppel",
+            "soil_type": "Sdp",
+            "bd_mean": 1.58,
+            "bd_1": 1.66,
+            "bd_2": 1.57,
+            "bd_3": 1.5,
+            "pF0_1": 0.33,
+            "pF0_2": 0.35,
+            "pF0_3": 0.4,
+            "pF2_1": 0.3,
+            "pF2_2": 0.23,
+            "pF2_3": 0.25,
+            "pF2.7_1": 0.2,
+            "pF2.7_2": 0.17,
+            "pF2.7_3": 0.17,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44686
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "pea",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_C55D7C",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2022,
+            "sensor": "C55D7C",
+            "crop": "erwt",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Scb",
+            "bd_mean": 1.46,
+            "bd_1": 1.41,
+            "bd_2": 1.46,
+            "bd_3": 1.51,
+            "pF0_1": 0.44,
+            "pF0_2": 0.45,
+            "pF0_3": 0.42,
+            "pF2_1": 0.36,
+            "pF2_2": 0.39,
+            "pF2_3": 0.36,
+            "pF2.7_1": 0.16,
+            "pF2.7_2": 0.14,
+            "pF2.7_3": 0.16,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44666
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Herent",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "chicory",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "silt loam",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2022_C58157",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2022,
+            "sensor": "C58157",
+            "crop": "witloof",
+            "location": "Herent",
+            "irr_method": "druppel",
+            "soil_type": "Ada",
+            "bd_mean": 1.44,
+            "bd_1": 1.43,
+            "bd_2": 1.44,
+            "bd_3": null,
+            "pF0_1": 0.44,
+            "pF0_2": 0.43,
+            "pF0_3": null,
+            "pF2_1": 0.32,
+            "pF2_2": 0.32,
+            "pF2_3": null,
+            "pF2.7_1": 0.23,
+            "pF2.7_2": 0.23,
+            "pF2.7_3": null,
+            "pF4.2_1": null,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 44691
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Sint-Katelijne-Waver",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "celery",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C535C9",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C535C9",
+            "crop": "selder",
+            "location": "Sint-Katelijne-Waver",
+            "irr_method": "druppel",
+            "soil_type": "Sdm",
+            "bd_mean": 1.441666667,
+            "bd_1": 1.441666667,
+            "bd_2": null,
+            "bd_3": null,
+            "pF0_1": 0.461666667,
+            "pF0_2": null,
+            "pF0_3": null,
+            "pF2_1": 0.296666667,
+            "pF2_2": null,
+            "pF2_3": null,
+            "pF2.7_1": 0.223333333,
+            "pF2.7_2": null,
+            "pF2.7_3": null,
+            "pF4.2_1": 0.061833333,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 45086
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kinrooi",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "onion",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "overhead hose reel",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C535CA",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C535CA",
+            "crop": "zaaiui",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Zbf",
+            "bd_mean": 1.55,
+            "bd_1": 1.56,
+            "bd_2": 1.57,
+            "bd_3": 1.53,
+            "pF0_1": 0.41,
+            "pF0_2": 0.42,
+            "pF0_3": 0.43,
+            "pF2_1": 0.3,
+            "pF2_2": 0.29,
+            "pF2_3": 0.29,
+            "pF2.7_1": 0.18,
+            "pF2.7_2": 0.18,
+            "pF2.7_3": 0.19,
+            "pF4.2_1": 0.09,
+            "pF4.2_2": 0.09,
+            "pF4.2_3": 0.09,
+            "planting_date": 45043
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kruisem",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "leek",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C54986",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C54986",
+            "crop": "prei",
+            "location": "Kruisem",
+            "irr_method": "druppel",
+            "soil_type": "Scp",
+            "bd_mean": 1.46,
+            "bd_1": 1.46,
+            "bd_2": null,
+            "bd_3": null,
+            "pF0_1": 0.43,
+            "pF0_2": null,
+            "pF0_3": null,
+            "pF2_1": 0.27,
+            "pF2_2": null,
+            "pF2_3": null,
+            "pF2.7_1": 0.18,
+            "pF2.7_2": null,
+            "pF2.7_3": null,
+            "pF4.2_1": 0.07,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 45078
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Sint-Katelijne-Waver",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "celery",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "loamy sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C54992",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C54992",
+            "crop": "selder",
+            "location": "Sint-Katelijne-Waver",
+            "irr_method": "druppel",
+            "soil_type": "Sdm",
+            "bd_mean": 1.43,
+            "bd_1": 1.43,
+            "bd_2": null,
+            "bd_3": null,
+            "pF0_1": 0.48,
+            "pF0_2": null,
+            "pF0_3": null,
+            "pF2_1": 0.32,
+            "pF2_2": null,
+            "pF2_3": null,
+            "pF2.7_1": 0.24,
+            "pF2.7_2": null,
+            "pF2.7_3": null,
+            "pF4.2_1": 0.056,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 45086
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "DRIP vegetable fields",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "unknown",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "unknown",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C55D7C",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C55D7C",
+            "crop": "erwten",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Sbb",
+            "bd_mean": 1.6,
+            "bd_1": 1.56,
+            "bd_2": 1.59,
+            "bd_3": 1.64,
+            "pF0_1": 0.43,
+            "pF0_2": 0.41,
+            "pF0_3": 0.39,
+            "pF2_1": 0.27,
+            "pF2_2": 0.26,
+            "pF2_3": 0.33,
+            "pF2.7_1": 0.15,
+            "pF2.7_2": 0.15,
+            "pF2.7_3": 0.16,
+            "pF4.2_1": 0.038,
+            "pF4.2_2": 0.035,
+            "pF4.2_3": 0.038,
+            "planting_date": 45035
+          },
+          {
+            "year": 2023,
+            "sensor": "C55D7C",
+            "crop": "bonen",
+            "location": "Kinrooi",
+            "irr_method": "haspel",
+            "soil_type": "Sbb",
+            "bd_mean": 1.6,
+            "bd_1": 1.56,
+            "bd_2": 1.59,
+            "bd_3": 1.64,
+            "pF0_1": 0.43,
+            "pF0_2": 0.41,
+            "pF0_3": 0.39,
+            "pF2_1": 0.27,
+            "pF2_2": 0.26,
+            "pF2_3": 0.33,
+            "pF2.7_1": 0.15,
+            "pF2.7_2": 0.15,
+            "pF2.7_3": 0.16,
+            "pF4.2_1": 0.038,
+            "pF4.2_2": 0.035,
+            "pF4.2_3": 0.038,
+            "planting_date": 45120
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Kruisem",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "sweet potato",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "sand",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C562C6",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C562C6",
+            "crop": "bataat",
+            "location": "Kruisem",
+            "irr_method": "druppel",
+            "soil_type": "Zch",
+            "bd_mean": 1.41,
+            "bd_1": 1.41,
+            "bd_2": null,
+            "bd_3": null,
+            "pF0_1": 0.46,
+            "pF0_2": null,
+            "pF0_3": null,
+            "pF2_1": 0.3,
+            "pF2_2": null,
+            "pF2_3": null,
+            "pF2.7_1": 0.21,
+            "pF2.7_2": null,
+            "pF2.7_3": null,
+            "pF4.2_1": 0.06,
+            "pF4.2_2": null,
+            "pF4.2_3": null,
+            "planting_date": 45069
+          }
+        ]
+      },
+      {
+        "dataset_id": "flanders",
+        "site": "Herent",
+        "country": "Belgium",
+        "region": "Flanders",
+        "source_url": "https://doi.org/10.48804/FQAAAM",
+        "crop": "chicory",
+        "crop_context": "open-field vegetables at 15 cm",
+        "crop_provenance": "observed Summary_sensors.xlsx; Dutch crop names translated",
+        "soil_type": "silt loam",
+        "soil_provenance": "observed Belgian texture code; first character translated",
+        "irrigation_method": "drip",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2023_C58157",
+        "sensor_model": "TEROS 10",
+        "irrigation_history_provenance": "method only; daily event files not downloaded",
+        "crop_episodes": [
+          {
+            "year": 2023,
+            "sensor": "C58157",
+            "crop": "witloof",
+            "location": "Herent",
+            "irr_method": "druppel",
+            "soil_type": "Aca",
+            "bd_mean": 1.44,
+            "bd_1": 1.44,
+            "bd_2": 1.46,
+            "bd_3": 1.43,
+            "pF0_1": 0.46,
+            "pF0_2": 0.46,
+            "pF0_3": 0.47,
+            "pF2_1": 0.34,
+            "pF2_2": 0.34,
+            "pF2_3": 0.34,
+            "pF2.7_1": 0.26,
+            "pF2.7_2": 0.26,
+            "pF2.7_3": 0.25,
+            "pF4.2_1": 0.08,
+            "pF4.2_2": 0.08,
+            "pF4.2_3": 0.07,
+            "planting_date": 45082
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Logger temperature is not weather air temperature. Pluvio interval/cumulative semantics not confirmed; not treated as rain.",
+      "Irrigation method is available, event history is not in the downloaded files.",
+      "pF retention observations are preserved under their measured names, not asserted to be field capacity or wilting point.",
+      "Two 2022 sensor modules lack matching metadata. Some 2023 modules differ from those in 2021/22.",
+      "Harvest dates unknown; crop label after planting is last documented crop, not confirmation that crop remains standing."
+    ],
+    "processed_files": [
+      "2021_012384F3720B710DEE.csv.gz",
+      "2021_2F71D1.csv.gz",
+      "2021_C535CA.csv.gz",
+      "2021_C54762.csv.gz",
+      "2021_C55D7C.csv.gz",
+      "2021_C58157.csv.gz",
+      "2022_2F71D1.csv.gz",
+      "2022_C535CA.csv.gz",
+      "2022_C54762.csv.gz",
+      "2022_C54986.csv.gz",
+      "2022_C55D7C.csv.gz",
+      "2022_C58157.csv.gz",
+      "2023_C535C9.csv.gz",
+      "2023_C535CA.csv.gz",
+      "2023_C54986.csv.gz",
+      "2023_C54992.csv.gz",
+      "2023_C55D7C.csv.gz",
+      "2023_C562C6.csv.gz",
+      "2023_C58157.csv.gz"
+    ],
+    "researched_context_source": null,
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "gallipoli",
+    "metadata": {
+      "dataset_id": "gallipoli",
+      "site": "Gallipoli experimental field",
+      "country": "Italy",
+      "region": "Apulia",
+      "source_url": "https://zenodo.org/records/20665025",
+      "crop": "olive",
+      "crop_context": "olive orchard indicated by published irrigation file label Uliveto",
+      "crop_provenance": "inferred from source file name Uliveto (olive grove); exact farm/cultivar unverified",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "unknown",
+      "time_basis": "source local time; UTC offset unverified",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "gallipoli"
+    },
+    "limitations": [
+      "Raw moisture units interpreted as volumetric fraction from water-content label, values and source project; unit assumption retained.",
+      "Olive identity inferred from Uliveto filename; soil, irrigation delivery and farm identity unverified.",
+      "Wind unit unverified, retained outside canonical wind field.",
+      "Flow rate retained without invented irrigation duration or volume; weather periods differ from moisture."
+    ],
+    "processed_files": [
+      "hourly.csv.gz"
+    ],
+    "researched_context_source": null,
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "virginia",
+    "metadata": [
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-Dec2020_01209A5A",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-Dec2020_0120A68F",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_01209A4A",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_01209A50",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_01209A63",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_01209C43",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_01209C51",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_0120A67D",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_0120A68D",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "unknown",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "May2020-May2021_0120A7A8",
+        "irrigation_treatment": "unknown"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "corn",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-04_Corn_Full_irr",
+        "irrigation_treatment": "full"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "corn",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-07_Corn_No_irr",
+        "irrigation_treatment": "non-irrigated"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "corn",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-07_Corn_Precision",
+        "irrigation_treatment": "precision"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "cotton",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-07_Cotton_Full_irr",
+        "irrigation_treatment": "full"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "cotton",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-07_Cotton_No_irr",
+        "irrigation_treatment": "non-irrigated"
+      },
+      {
+        "dataset_id": "virginia",
+        "site": "Tidewater AREC",
+        "country": "United States",
+        "region": "Suffolk, Virginia",
+        "source_url": "https://doi.org/10.6084/m9.figshare.25371214",
+        "crop": "cotton",
+        "crop_context": "corn and cotton trial; non-irrigated, full and precision irrigation",
+        "crop_provenance": "observed 2021 filename; 2020 serial-to-crop map unavailable",
+        "soil_type": "Nansemond loamy fine sand over fine sandy loam",
+        "soil_provenance": "researched site context",
+        "irrigation_method": "unknown",
+        "time_basis": "source local time; UTC offset unverified",
+        "field_capacity_m3m3": null,
+        "wilting_point_m3m3": null,
+        "root_depth_cm": null,
+        "metadata_status": "observed fields and documented context; unknown values not imputed",
+        "series_id": "2021-10-07_Cotton_Precision",
+        "irrigation_treatment": "precision"
+      }
+    ],
+    "limitations": [
+      "2020 filenames do not identify crop/treatment; these are unknown rather than guessed.",
+      "Sensor depths assigned in ascending 10 cm increments from study description and sensor suffix order (mapping assumption).",
+      "SM percent interpreted as VWC per study. Weather and soil-temperature units not explicit in downloaded CSV; source values retained separately, canonical fields remain null.",
+      "FC/plant-extraction-limit paper estimates are pooled across probes, not transferable plot constants; neither assigned as wilting point."
+    ],
+    "processed_files": [
+      "May2020-Dec2020_01209A5A.csv.gz",
+      "May2020-Dec2020_0120A68F.csv.gz",
+      "May2020-May2021_01209A4A.csv.gz",
+      "May2020-May2021_01209A50.csv.gz",
+      "May2020-May2021_01209A63.csv.gz",
+      "May2020-May2021_01209C43.csv.gz",
+      "May2020-May2021_01209C51.csv.gz",
+      "May2020-May2021_0120A67D.csv.gz",
+      "May2020-May2021_0120A68D.csv.gz",
+      "May2020-May2021_0120A7A8.csv.gz",
+      "2021-10-04_Corn_Full_irr.csv.gz",
+      "2021-10-07_Corn_No_irr.csv.gz",
+      "2021-10-07_Corn_Precision.csv.gz",
+      "2021-10-07_Cotton_Full_irr.csv.gz",
+      "2021-10-07_Cotton_No_irr.csv.gz",
+      "2021-10-07_Cotton_Precision.csv.gz"
+    ],
+    "researched_context_source": "https://doi.org/10.13031/ja.15999",
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  },
+  {
+    "dataset_id": "berambadi",
+    "metadata": {
+      "dataset_id": "berambadi",
+      "site": "Berambadi / Bechanahalli agricultural field",
+      "country": "India",
+      "region": "Karnataka",
+      "source_url": "https://zenodo.org/records/18409640",
+      "crop": "unknown",
+      "crop_context": "semi-arid monsoon agricultural field; crop and rotation unreported",
+      "crop_provenance": "unknown; repository does not establish crop at sensor plot",
+      "soil_type": "unknown",
+      "soil_provenance": "unknown",
+      "irrigation_method": "unknown",
+      "time_basis": "source local time; UTC offset unverified",
+      "field_capacity_m3m3": null,
+      "wilting_point_m3m3": null,
+      "root_depth_cm": null,
+      "metadata_status": "observed fields and documented context; unknown values not imputed",
+      "series_id": "berambadi_2024",
+      "source_version": "18409640 (inspected version; later versions exist)"
+    },
+    "limitations": [
+      "Only 2024 downloaded and processed, not the full 2016–2025 archive.",
+      "Crop, soil, irrigation method/history and sensor placement relative to crop unknown. Suitable for moisture forecasting with unknown metadata; not a labelled crop-generalisation test."
+    ],
+    "processed_files": [
+      "hourly_2024.csv.gz"
+    ],
+    "researched_context_source": null,
+    "provenance_guide": {
+      "observed": "Raw headers, timestamps, values, crop tables and measured soil properties in downloaded files.",
+      "researched": "Site context from the cited repository documentation or researched_context_source; not a measured time-varying input.",
+      "inferred": "Explicitly labelled assumptions in limitations or provenance columns; not verified measurements.",
+      "unknown": "Null or unknown; no invented field capacity, wilting point, root depth, crop chronology or irrigation events."
+    },
+    "output_sampling_interval_minutes": 60,
+    "metadata_embedded_in_each_csv": true
+  }
+]

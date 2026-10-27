@@ -1,0 +1,506 @@
+[
+  {
+    "file": "cleaned_datasets/berambadi/hourly_2024.csv.gz",
+    "rows": 8784,
+    "usable_windows": 8686,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF003.csv.gz",
+    "rows": 80304,
+    "usable_windows": 44896,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF007.csv.gz",
+    "rows": 80304,
+    "usable_windows": 35588,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF009.csv.gz",
+    "rows": 80304,
+    "usable_windows": 27058,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF019.csv.gz",
+    "rows": 80304,
+    "usable_windows": 31180,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF031.csv.gz",
+    "rows": 80304,
+    "usable_windows": 35744,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF033.csv.gz",
+    "rows": 80304,
+    "usable_windows": 33857,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF035.csv.gz",
+    "rows": 80304,
+    "usable_windows": 33008,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF061.csv.gz",
+    "rows": 80304,
+    "usable_windows": 35804,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF067.csv.gz",
+    "rows": 80304,
+    "usable_windows": 37577,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF075.csv.gz",
+    "rows": 80304,
+    "usable_windows": 35242,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF079.csv.gz",
+    "rows": 80304,
+    "usable_windows": 25487,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF095.csv.gz",
+    "rows": 80304,
+    "usable_windows": 40406,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF119.csv.gz",
+    "rows": 80304,
+    "usable_windows": 37287,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF125.csv.gz",
+    "rows": 80304,
+    "usable_windows": 31095,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF129.csv.gz",
+    "rows": 80304,
+    "usable_windows": 33349,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF133.csv.gz",
+    "rows": 80304,
+    "usable_windows": 32060,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF135.csv.gz",
+    "rows": 80304,
+    "usable_windows": 31508,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF139.csv.gz",
+    "rows": 80304,
+    "usable_windows": 36343,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF141.csv.gz",
+    "rows": 80304,
+    "usable_windows": 44424,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF163.csv.gz",
+    "rows": 80304,
+    "usable_windows": 24868,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF173.csv.gz",
+    "rows": 80304,
+    "usable_windows": 29313,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF197.csv.gz",
+    "rows": 80304,
+    "usable_windows": 44470,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF201.csv.gz",
+    "rows": 80304,
+    "usable_windows": 40552,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF205.csv.gz",
+    "rows": 80304,
+    "usable_windows": 28599,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF209.csv.gz",
+    "rows": 80304,
+    "usable_windows": 44211,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF215.csv.gz",
+    "rows": 80304,
+    "usable_windows": 33885,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF217.csv.gz",
+    "rows": 80304,
+    "usable_windows": 37739,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF231.csv.gz",
+    "rows": 80304,
+    "usable_windows": 41936,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF237.csv.gz",
+    "rows": 80304,
+    "usable_windows": 48750,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF245.csv.gz",
+    "rows": 80304,
+    "usable_windows": 33991,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF275.csv.gz",
+    "rows": 80304,
+    "usable_windows": 35329,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF308.csv.gz",
+    "rows": 80304,
+    "usable_windows": 41861,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF310.csv.gz",
+    "rows": 80304,
+    "usable_windows": 40715,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF312.csv.gz",
+    "rows": 80304,
+    "usable_windows": 24576,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF314.csv.gz",
+    "rows": 80304,
+    "usable_windows": 44522,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF316.csv.gz",
+    "rows": 80304,
+    "usable_windows": 36575,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF349.csv.gz",
+    "rows": 80304,
+    "usable_windows": 26588,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF351.csv.gz",
+    "rows": 80304,
+    "usable_windows": 38795,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF357.csv.gz",
+    "rows": 80304,
+    "usable_windows": 32751,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF377.csv.gz",
+    "rows": 80304,
+    "usable_windows": 31415,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF397.csv.gz",
+    "rows": 80304,
+    "usable_windows": 43444,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/cook/CAF401.csv.gz",
+    "rows": 80304,
+    "usable_windows": 39157,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_012384F3720B710DEE.csv.gz",
+    "rows": 2677,
+    "usable_windows": 0,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_2F71D1.csv.gz",
+    "rows": 4315,
+    "usable_windows": 137,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_C535CA.csv.gz",
+    "rows": 6467,
+    "usable_windows": 0,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_C54762.csv.gz",
+    "rows": 6467,
+    "usable_windows": 0,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_C55D7C.csv.gz",
+    "rows": 6467,
+    "usable_windows": 0,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2021_C58157.csv.gz",
+    "rows": 6467,
+    "usable_windows": 0,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_2F71D1.csv.gz",
+    "rows": 5780,
+    "usable_windows": 937,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_C535CA.csv.gz",
+    "rows": 6345,
+    "usable_windows": 10,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_C54762.csv.gz",
+    "rows": 5534,
+    "usable_windows": 1675,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_C54986.csv.gz",
+    "rows": 5181,
+    "usable_windows": 2227,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_C55D7C.csv.gz",
+    "rows": 6344,
+    "usable_windows": 1302,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2022_C58157.csv.gz",
+    "rows": 6448,
+    "usable_windows": 3248,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C535C9.csv.gz",
+    "rows": 6315,
+    "usable_windows": 932,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C535CA.csv.gz",
+    "rows": 5884,
+    "usable_windows": 91,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C54986.csv.gz",
+    "rows": 6326,
+    "usable_windows": 2548,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C54992.csv.gz",
+    "rows": 6321,
+    "usable_windows": 4769,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C55D7C.csv.gz",
+    "rows": 5186,
+    "usable_windows": 880,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C562C6.csv.gz",
+    "rows": 6328,
+    "usable_windows": 3617,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/flanders/2023_C58157.csv.gz",
+    "rows": 6328,
+    "usable_windows": 2780,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/gallipoli/hourly.csv.gz",
+    "rows": 14597,
+    "usable_windows": 11168,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/gebesee/hourly.csv.gz",
+    "rows": 52608,
+    "usable_windows": 40158,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/klingenberg/hourly.csv.gz",
+    "rows": 192864,
+    "usable_windows": 111434,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/lamasquere/hourly.csv.gz",
+    "rows": 40920,
+    "usable_windows": 30873,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/lonzee/hourly.csv.gz",
+    "rows": 84720,
+    "usable_windows": 64804,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/selhausen/hourly.csv.gz",
+    "rows": 61368,
+    "usable_windows": 55448,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-04_Corn_Full_irr.csv.gz",
+    "rows": 3144,
+    "usable_windows": 2822,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-07_Corn_No_irr.csv.gz",
+    "rows": 3216,
+    "usable_windows": 2821,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-07_Corn_Precision.csv.gz",
+    "rows": 3216,
+    "usable_windows": 2562,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-07_Cotton_Full_irr.csv.gz",
+    "rows": 3216,
+    "usable_windows": 2822,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-07_Cotton_No_irr.csv.gz",
+    "rows": 3216,
+    "usable_windows": 2467,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/2021-10-07_Cotton_Precision.csv.gz",
+    "rows": 1386,
+    "usable_windows": 1114,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-Dec2020_01209A5A.csv.gz",
+    "rows": 2494,
+    "usable_windows": 2422,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-Dec2020_0120A68F.csv.gz",
+    "rows": 2178,
+    "usable_windows": 1200,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_01209A4A.csv.gz",
+    "rows": 2494,
+    "usable_windows": 2324,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_01209A50.csv.gz",
+    "rows": 4419,
+    "usable_windows": 2360,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_01209A63.csv.gz",
+    "rows": 5542,
+    "usable_windows": 4298,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_01209C43.csv.gz",
+    "rows": 2494,
+    "usable_windows": 2422,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_01209C51.csv.gz",
+    "rows": 7003,
+    "usable_windows": 6746,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_0120A67D.csv.gz",
+    "rows": 5985,
+    "usable_windows": 5500,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_0120A68D.csv.gz",
+    "rows": 2008,
+    "usable_windows": 1633,
+    "checks": "passed"
+  },
+  {
+    "file": "cleaned_datasets/virginia/May2020-May2021_0120A7A8.csv.gz",
+    "rows": 6518,
+    "usable_windows": 6090,
+    "checks": "passed"
+  }
+]

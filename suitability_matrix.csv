@@ -1,0 +1,11 @@
+dataset_id,series,hourly_rows,usable_24h_windows,start,end,weather_fields_with_observations,source
+gebesee,1,52608,40158,2020-01-01 01:00:00,2026-01-01 00:00:00,air_temperature_c; relative_humidity_pct; rain_mm; pressure_kpa; wind_speed_ms; radiation_wm2,https://meta.icos-cp.eu/objects/9-DAlCIw_KoAU0eLd8N_iVx1
+lonzee,1,84720,64804,2017-01-01 01:00:00,2026-09-01 00:00:00,air_temperature_c; relative_humidity_pct; rain_mm; pressure_kpa; wind_speed_ms; radiation_wm2,https://meta.icos-cp.eu/objects/TcM8E1LFHji5mnolZIyiLE6o
+lamasquere,1,40920,30873,2020-01-01 01:00:00,2024-09-01 00:00:00,air_temperature_c; relative_humidity_pct; rain_mm; pressure_kpa; wind_speed_ms; radiation_wm2,https://meta.icos-cp.eu/objects/tZlz-zEjgsdC11OtOL2Ijz6Z
+klingenberg,1,192864,111434,2004-01-01 01:00:00,2026-01-01 00:00:00,air_temperature_c; relative_humidity_pct; rain_mm; wind_speed_ms; radiation_wm2,https://meta.icos-cp.eu/objects/WJpiQa9U59h5v204K77o4wJY
+selhausen,1,61368,55448,2019-01-01 01:00:00,2026-01-01 00:00:00,air_temperature_c; relative_humidity_pct; rain_mm; pressure_kpa; wind_speed_ms; radiation_wm2,https://meta.icos-cp.eu/objects/nUzNGoFrYE29WG5LGK0C9MtY
+cook,42,3372768,1505955,2007-04-20 01:00:00,2016-06-17 00:00:00,,https://agdatacommons.nal.usda.gov/articles/dataset/24852273
+flanders,19,111180,25153,2021-04-06 14:00:00,2023-10-02 13:00:00,,https://doi.org/10.48804/FQAAAM
+gallipoli,1,14597,11168,2021-06-30 20:00:00,2023-03-01 00:00:00,air_temperature_c; rain_mm,https://zenodo.org/records/20665025
+virginia,16,58529,49603,2020-05-22 14:00:00,2021-10-08 00:00:00,,https://doi.org/10.6084/m9.figshare.25371214
+berambadi,1,8784,8686,2024-01-01 01:00:00,2025-01-01 00:00:00,rain_mm,https://zenodo.org/records/18409640
